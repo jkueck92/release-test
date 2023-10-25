@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>demo1</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>demo1</name>
     <description>demo1</description>
 
@@ -17,7 +17,7 @@
         <url>https://github.com/jkueck92/release-test.git</url> <!-- URL HTTP de clone do projeto -->
         <connection>scm:git:https://github.com/jkueck92/release-test.git</connection> <!-- URL HTTP de clone do projeto -->
         <developerConnection>scm:git:https://github.com/jkueck92/release-test.git</developerConnection> <!-- URL HTTP de clone do projeto -->
-        <tag>0.0.1</tag>
+        <tag>@{project.version}</tag>
     </scm>
 
     <properties>
